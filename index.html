@@ -72,21 +72,21 @@
             </div>
         </nav>
         <div id="owl-hero" class="owl-carousel owl-theme">
-            <div class="item" style="background-image: url(img/sliders/Slide.jpg)">
+            <div class="item" style="background-image: url(img/sliders/NewSlide.jpg)">
                 <div class="caption">
                     <h6>Promoting Business Literacy In Youth</h6>
                     <h1>We Are <span>Enroot</span></h1>
                     <a class="btn btn-transparent page-scroll" href="#services">Learn More</a>
                 </div>
             </div>
-            <div class="item" style="background-image: url(img/sliders/Slide2.jpg)">
+            <div class="item" style="background-image: url(img/sliders/NewSlide2.jpg)">
                 <div class="caption">
                     <h6>Promoting Business Literacy In Youth</h6>
                     <h1>Forward <span>Thinking</span></h1>
                     <a class="btn btn-transparent page-scroll" href="#services">Learn More</a>
                 </div>
             </div>
-            <div class="item" style="background-image: url(img/sliders/Slide3.jpg)">
+            <div class="item" style="background-image: url(img/sliders/NewSlide3.jpg)">
                 <div class="caption">
                     <h6>Promoting Business Literacy In Youth</h6>
                     <h1>Enabling <span>Communication</span></h1>
@@ -290,11 +290,11 @@
                 </div>
                 <div class="col-lg-3">
                     <span class="icon-chat"></span>
-                    <h4>4.Share Knowledge</h4>
+                    <h4>3.Share Knowledge</h4>
                 </div>
                 <div class="col-lg-3">
                     <span class="icon-lightbulb"></span>
-                    <h4>3.Innovate</h4>
+                    <h4>4.Innovate</h4>
                 </div>
             </div>
         </div>
@@ -416,19 +416,46 @@
             <hr class="sep">
             <p>Get In Touch</p>
             <div class="col-md-6 col-md-offset-3 wow fadeInUp" data-wow-delay=".3s">
-                <form id="contact-form" method="post" action="contact.php" role="form">
-                   <div class="messages"></div>
-                    <div class="form-group">
-                        <input type="text" class="form-control" id="Name" placeholder="Name">
-                    </div>
-                    <div class="form-group">
-                        <input type="text" class="form-control" id="Email" placeholder="Email">
-                    </div>
-                    <div class="form-group">
-                        <textarea class="form-control" rows="3" placeholder="Message"></textarea>
-                    </div>
-                    <a href="#" class="btn-block">Send</a>
-                </form>
+              <form id="contact-form" method="post" action="https://formspree.io/contact.enroot@gmail.com" role="form">
+
+              <div class="controls">
+
+                  <div class="row">
+                      <div class="col-md-12">
+                          <div class="form-group">
+                              <input id="form_name" type="text" name="name" class="form-control" placeholder="Name" required="required" data-error="Name is required.">
+                              <div class="help-block with-errors"></div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="row">
+                      <div class="col-md-12">
+                          <div class="form-group">
+                              <input id="form_email" type="email" name="email" class="form-control" placeholder="Email" required="required" data-error="Valid email is required.">
+                              <div class="help-block with-errors"></div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="row">
+                      <div class="col-md-12">
+                          <div class="form-group">
+                              <textarea id="form_message" name="message" class="form-control" placeholder="Message" rows="4" required="required" data-error="Please,leave us a message."></textarea>
+                              <div class="help-block with-errors"></div>
+                          </div>
+                      </div>
+                      <div class="col-md-12">
+                          <input type="submit" class="btn-block btn-send" value="Send message">
+                      </div>
+                  </div>
+                  <div class="row">
+                      <div class="col-md-12">
+                          <p class="text-muted">All fields are required.</p>
+                      </div>
+                  </div>
+              </div>
+              <input type="hidden" name="_next" value="https://enroot.ca" />
+              <input type="hidden" name="_subject" value="Enroot contact" />
+            </form>
             </div>
         </div>
     </section>
